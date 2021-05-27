@@ -1,0 +1,7 @@
+Universe = vanilla
+Executable = /junofs/users/liuyan/muon-sim/sim-tt/sim-rec/rec.sh
+Requirements = Target.OpSysAndVer =?= "SL6"
+Accounting_Group = juno
+Args=$(Process) cal/flists/20190216_muoncal
+Error = /junofs/users/liuyan/muon-sim/foo.log
+Queue 1

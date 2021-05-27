@@ -1,0 +1,7 @@
+Universe = vanilla
+Executable = /junofs/users/liuyan/muon-sim/sim-nn/data-nn/cnn.sh
+Requirements = Target.OpSysAndVer =?= "SL6" && !regexp("bws0441", Name)
+Accounting_Group = juno
+error =/junofs/users/liuyan/muon-sim/sim-nn/data-nn/err.txt
+Args=$(Process) /junofs/users/liuyan/muon-sim/sim-nn/data-nn/data-cd-200GeV/flist/ellip20190628
+Queue 1

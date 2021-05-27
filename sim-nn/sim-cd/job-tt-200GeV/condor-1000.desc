@@ -1,0 +1,6 @@
+Universe = vanilla
+Executable = /junofs/users/liuyan2016/muon-sim/sim-nn/data-cd/jobs-tt-200GeV/fullsim_/tt-2019_evtmax1_mom_tts3ns/script_1/$(Process).sh
+Requirements = Target.OpSysAndVer =?= "SL6" && !regexp("bws0441", Name)
+Accounting_Group = juno
+Args=$(Process)
+Queue 1000

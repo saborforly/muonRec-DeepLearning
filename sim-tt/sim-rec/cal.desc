@@ -1,0 +1,6 @@
+Universe = vanilla
+Executable = /junofs/users/liuyan/muon-sim/sim-tt/sim-rec/cal.sh
+Requirements = Target.OpSysAndVer =?= "SL6"
+Accounting_Group = juno
+Args=$(Process) sim-flists/20190216_muonexe
+Queue 1
